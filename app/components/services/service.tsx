@@ -8,7 +8,7 @@ export const ServicesPage = ({ data }: { data: { type: string; image: string; vi
     return (
         <main>
             <section>
-                <div className="relative w-full h-[100vh]">
+                <div className="relative w-full h-[72vh]">
                     <Image
                         src={data[0].image}
                         alt="VPN security application on laptop and smartphone"
@@ -33,7 +33,7 @@ export const ServicesPage = ({ data }: { data: { type: string; image: string; vi
                         <div key={index}>
                             {miniData.image && (
                                 <div className="flex justify-center py-3">
-                                    <div className="relative w-[700px] h-[700px]">
+                                    <div className="relative w-[50vh] h-[50vh]">
                                         <Image
                                             src={miniData.image}
                                             alt="VPN security application on laptop and smartphone"
