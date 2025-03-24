@@ -5,7 +5,7 @@ export default function CCTVInstallationServices() {
   const data = [
     {
       type: "CCTV Installation & Monitoring Services",
-      image: '/cctv/c4.jpg',
+      image: '/cctv/c1.png',
       video:'',
       content: [
         {
