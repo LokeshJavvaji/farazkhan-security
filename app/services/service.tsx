@@ -17,7 +17,7 @@ export const ServicesPage = ({
   return (
     <main>
       <section>
-        <div className="relative w-full h-[100vh]">
+        <div className="relative w-full h-[75vh]">
           <Image
             src={data[0].image}
             alt="VPN security application on laptop and smartphone"
