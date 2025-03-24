@@ -4,7 +4,7 @@ import { ServicesPage } from "@/components/services/service"
 export default function CCTVInstallationServices() {
   const data = [
     {
-      type: "CCTV Installation & Monitoring Services",
+      type: "",
       image: '/cctv/c5.jpg',
       video:'',
       content: [
