@@ -8,7 +8,7 @@ export const ServicesPage = ({ data }: { data: { type: string; image: string; vi
     return (
         <main>
             <section>
-                <div className="relative w-[90vh] h-[72vh]">
+                <div className="relative w-full h-full">
                     <Image
                         src={data[0].image}
                         alt="VPN security application on laptop and smartphone"
