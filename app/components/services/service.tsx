@@ -8,7 +8,7 @@ export const ServicesPage = ({ data }: { data: { type: string; image: string; vi
     return (
         <main>
             <section>
-                <div className="relative w-[300vh] h-[72vh]">
+                <div className="relative w-[90vh] h-[72vh]">
                     <Image
                         src={data[0].image}
                         alt="VPN security application on laptop and smartphone"
@@ -16,12 +16,9 @@ export const ServicesPage = ({ data }: { data: { type: string; image: string; vi
                         className="object-cover"
                     />
                     <h1 className="absolute top-20 left-20 text-black text-5xl font-bold">{data[0].type}</h1>
-                    <div className="flex justify-center">
-                    <iframe className="w-[100%] md:w-[60%] lg:w-[40%] h-60 md:h-80 lg:h-80 rounded-lg absolute top-60"  width="560" height="315" src={data[0].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
                 </div>
             </section>
-            <section className="container mx-auto px-4 py-2"><br></br>
+            <section className="container mx-auto px-4 py-6"><br></br>
             <br></br>
                 <p className="container mx-auto text-2xl">
                     <strong>{data[0].content[0].title}:</strong> {data[0].content[0].description}
